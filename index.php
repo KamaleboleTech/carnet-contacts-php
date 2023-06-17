@@ -1,5 +1,5 @@
 <?php 
-    $bdd = new PDO('mysql:host=127.0.0.1;dbname=carnetcontacts', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=carnetcontacts', 'root', '');
     if(isset($_POST['formSend']))
     {
         if(!empty($_POST['pseudo']) AND !empty($_POST['prenom']) AND !empty($_POST['pays'])
